@@ -18,7 +18,7 @@ setup(
     ],
     dependency_links=[
         'http://github.com/Detonavomek/tor-pool#egg=tor-pool',
-    ]
+    ],
     classifiers=[
         "Topic :: Utilities",
         "License :: OSI Approved :: BSD License",
