@@ -14,7 +14,7 @@ setup(
     packages=['privoxy_pool'],
     long_description="Pool Privoxies controller",
     install_requires=[
-        "tor-pool==2.8",
+        "tor-pool",
     ],
     dependency_links=[
         'http://github.com/Detonavomek/tor-pool#egg=tor-pool',
