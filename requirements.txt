@@ -1,0 +1,1 @@
+-e git://github.com/Detonavomek/tor-pool.git#egg=tor-pool
