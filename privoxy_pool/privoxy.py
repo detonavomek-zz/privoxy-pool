@@ -9,6 +9,7 @@ from jinja2 import Template
 TEMPLATE_CONFIG = """
 forward-socks5t / 127.0.0.1:{{ tor_port }} .
 listen-address    :{{ port }}
+
 """
 
 class Privoxy(object):
