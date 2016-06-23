@@ -24,7 +24,7 @@ try:
 	privoxies.update_tor_ip(8118)
 	raise Exception('IP Update Error. Need wait 10 seconds')
 except TorIpUpdateException as e:
-	pass
+	from ipdb import set_trace; set_trace()
 
 print privoxies.instances
 

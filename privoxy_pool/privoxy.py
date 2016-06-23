@@ -25,6 +25,7 @@ class Privoxy(object):
 	port = None
 	tor = None
 	_status = None
+	
 
 	@property
 	def status(self):
