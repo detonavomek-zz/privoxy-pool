@@ -1,0 +1,26 @@
+import os
+from setuptools import setup
+
+
+setup(
+    name = "privoxy_pool",
+    version = "1.0",
+    author = "detonavomek",
+    author_email = "detonavomek@gmail.com",
+    description = ("Pool Privoxies controller"),
+    license = "BSD",
+    keywords = "privoxy controller",
+    url = "http://github.com/Detonavomek/privoxy-pool",
+    packages=['privoxy_pool'],
+    long_description="Pool Privoxies controller",
+    install_requires=[
+        "tor-pool==2.8",
+    ],
+    dependency_links=[
+        'http://github.com/Detonavomek/tor-pool#egg=tor-pool',
+    ]
+    classifiers=[
+        "Topic :: Utilities",
+        "License :: OSI Approved :: BSD License",
+    ],
+)
